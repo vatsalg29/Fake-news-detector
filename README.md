@@ -3,8 +3,9 @@ Deep Learning model to detect fake news on the LIAR_PLUS Dataset
 
 ## Running the code
 1. Download the dataset here - [link](https://aclweb.org/anthology/W18-5513)
-2. Assign column names to the tsv files
-3. The notebook has necessary changes for it to be able to run in Google colab. Kindly remove those changes to run in your personal machine.
+2. Download glove embeddings - [link](http://nlp.stanford.edu/data/glove.6B.zip)
+3. Assign column names to the tsv files according to the notebook.
+4. The notebook has necessary changes for it to be able to run in Google colab. Kindly remove those changes to run in your personal machine.
 
 ## Results
 The model achieves 44.12% test accuracy on the 6 way classification task and 73.56% on the binary classification task.
